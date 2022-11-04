@@ -59,6 +59,13 @@ main h2 {
     margin-top: 3.0625rem;
 }
 
+.posters__btn--large {
+    padding: 1rem 1.5rem;
+    font-size: 0.875rem;
+    font-weight: 700;
+    margin-top: 3.0625rem;
+}
+
 .posters {
     display: grid;
     grid-template-columns: repeat(6, 9.75rem);
@@ -80,26 +87,17 @@ main h2 {
 }
 
 .posters__large__desc {
-    background-color: white;
     padding: 1rem;
-}
-
-.posters__btn--large {
-    padding: 1rem 1.5rem;
-    font-size: 0.875rem;
-    font-weight: 700;
-    margin-top: 3.0625rem;
 }
 
 .footer {
     height: 20rem;
     background-color: rgba(255, 255, 255, 0.2);
     color: white;
-    display: flex;
-    justify-content: space-around;
     padding-top: 4rem;
     margin-top: 5.9375rem;
-
+    display: flex;
+    justify-content: space-around;
 }
 
 .footer h1 {
@@ -107,6 +105,7 @@ main h2 {
     font-weight: 700;
     margin-bottom: 0.8125rem;
 }
+
 .footer p {
     margin: 0;
 }
@@ -115,6 +114,7 @@ main h2 {
     list-style-type: none;
     padding: 0;
 }
+
 .footer__nav__links a {
     text-decoration: none;
     color: white;
